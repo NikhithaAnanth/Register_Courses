@@ -2,7 +2,7 @@
 A simple Django project that shows implementation of forms to take input and data is saved in Django's SQLite. The admin access is also available.
 # Project Creation
 django-admin startproject courses
-# App Creation 
+# App Creation
 django-admin startapp newforms
 #
 *   create new files- forms.py, urls.py in app
