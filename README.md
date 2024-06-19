@@ -11,6 +11,7 @@ django-admin startapp newforms
 
 # Making Migrations
 python manage.py makemigrations
+
 python manage.py migrate
 # Creating Super-User (admin)
 python manage.py createsuperuser
