@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Define the primary colors for the pink palette */
+:root {
+    --primary-pink: #e91e63;       /* Primary pink color */
+    --light-pink: #f8bbd0;        /* Light pink for backgrounds */
+    --dark-pink: #c2185b;         /* Dark pink for accents */
+    --background-color: #fff0f6;  /* Very light pink for page background */
+    --text-color: #880e4f;        /* Dark pink for text */
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Heading styling */
+h1, h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h1 {
+    color: var(--dark-pink);
+    font-size: 36px;
+}
+
+h3 {
+    color: var(--primary-pink);
+    font-size: 24px;
+}
+
+/* Form styling */
+form {
+    background-color: var(--light-pink);
+    border: 2px solid var(--primary-pink);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(233, 30, 99, 0.2);
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+form:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 20px rgba(233, 30, 99, 0.4);
+}
+
+form p {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+button {
+    background-color: var(--primary-pink);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 150px;
+}
+
+button:hover {
+    background-color: var(--dark-pink);
+}
+
+/* Paragraph styling inside the form */
+form p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
